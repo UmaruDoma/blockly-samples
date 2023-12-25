@@ -1,6 +1,16 @@
 <h1 align="center">
 Blockly Samples <br /> <a href="https://github.com/google/blockly"><img src="https://tinyurl.com/built-on-blockly" /> </a>
 </h1>
+Tip:
+sudo apt-get update
+sudo apt-get install mc
+sudo apt-get install apache 2
+sudo apt-get install node.js
+
+sudo /etc/init.d/apache2 restart
+sudo nano /etc/apache2/sites-available/blockly.conf
+sudo a2ensite blockly
+sudo cp -r /workspaces/blockly-samples/examples/getting-started-codelab/starter-code /var/www/html/starter-code
 
 Plugins, codelabs, and examples related to the [Blockly](https://github.com/google/blockly) library.
 
